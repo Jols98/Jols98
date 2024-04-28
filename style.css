@@ -1,0 +1,256 @@
+html {
+    background-color: #AF8260;
+}
+
+#title > .main {
+    background-color: #E4C59E;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main > h1 {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 4em;
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+    margin-bottom: 80px;
+    color: #322C2B;
+}
+
+@media (max-width: 1200px) {
+    .main > .outer {
+        display: none;
+    }
+    
+    .main > h1 {
+        color: #231f1e;
+    }
+}
+
+@media (max-width: 768px) {
+    .main > .inner {
+        display: none;
+    }
+
+    .main > h1 {
+        margin-top: 50px;
+        color: black;
+    }
+}
+
+
+.sub {
+    background-color: #AF8260;
+    color: black;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.sub > h2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.light-left {
+    height: 12rem;
+    padding: 40px;
+}
+
+.light-right {
+    height: 12rem;
+    padding: 40px;
+}
+
+.about-me {
+    background-color: #AF8260;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.about-me > img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.about-me > h2 {
+    color: white;
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.about-me > h3 {
+    color:#322C2B;
+    font-size: 30px;
+    line-height: 2;
+    padding-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.list {
+    background-color: #803D3B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.skill-list > h2 {
+    color:#E4C59E;
+    font-size: 60px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+.skill-list > h3 {
+    color:#E4C59E;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.skill-list > p {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding-bottom: 50px;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.filter-white {
+    filter: invert(91%) sepia(100%) saturate(0%) hue-rotate(194deg) brightness(104%) contrast(101%);
+}
+
+.filter-beige {
+    filter: invert(89%) sepia(11%) saturate(1019%) hue-rotate(338deg) brightness(92%) contrast(94%);
+}
+
+.contact {
+    background-color: #322C2B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info > h2 {
+    color: white;
+    font-size: 60px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 60px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+.contact-info > h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contact-info > h4 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 40px;
+}
+
+.contact-info > p {
+    color: #E4C59E;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.btn {
+    background-color:#E4C59E;
+    border-radius: 10px;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#322C2B;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #e0bc8f;
+}
+
+.btn:hover {
+    background: #e0bc8f;
+    color: #2f2a29;
+    border: 2px solid #d8ab72;
+}
+
+.contact {
+    padding-bottom: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer {
+    background-color:#231f1e;
+    padding: 10px;
+    text-align: right;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    color: #803D3B;
+}
